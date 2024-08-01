@@ -9,8 +9,13 @@
 
 </head>
 <body>
-    <img src="bg.jpg" alt="bgimg" class="bi">
-
+    <picture >
+        <source srcset="mobile.jpg" media="(max-width: 600px)">
+        <source srcset="tablet.jpg" media="(max-width: 1500px)">
+        <source srcset="bg.jpg">
+        <img src="bg.jpg" alt="bgimg" class="img">
+      </picture>
+ <!-- middle navbar done-->
    <div class="navbar">
     <ul>
         <div class="mid">
@@ -21,6 +26,7 @@
         </div>
     </ul>
    </div>
+   <!-- right navbar done-->
    <div class="rightnavbar">
     <ul>
         <div class="right">
@@ -29,5 +35,10 @@
         </div>
     </ul>
    </div>
+   <!--Main part done-->
+   <div class="main">
+         
+   </div>
+
 </body>
 </html>
