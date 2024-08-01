@@ -331,7 +331,7 @@ ul{
     left: 5%;
   }
   .footernav {
-    background-color: rgb(161, 146, 230);
+    background-color: #808080;
     color: white;
     text-align: center;
     padding: 10px;
@@ -347,4 +347,9 @@ ul{
     display: inline;
     margin-right: 10px;
 }
-.f
+.footernav ul li a:hover{
+    color: rgb(10, 22, 22);
+}
+.footernav:hover{
+    color: black;
+}
