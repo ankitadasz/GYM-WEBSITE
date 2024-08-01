@@ -164,3 +164,17 @@ ul{
     background-color:#BC7676 ;
     color: black;
 }
+.join{
+    font-family: 'Clash Display', sans-serif;
+    font-weight: bolder;
+    font-size:x-large;
+    color:#130505;
+    letter-spacing: 1px;
+}
+.now{
+    font-family: 'Clash Display', sans-serif;
+    font-weight: bolder;
+    font-size:x-large;
+    color:#130505;
+    letter-spacing: 1px;
+}
