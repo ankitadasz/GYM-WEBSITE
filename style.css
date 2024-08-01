@@ -164,17 +164,66 @@ ul{
     background-color:#BC7676 ;
     color: black;
 }
+.main{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
 .join{
     font-family: 'Clash Display', sans-serif;
     font-weight: bolder;
     font-size:x-large;
-    color:#130505;
+    color:#ffffff;
     letter-spacing: 1px;
 }
 .now{
     font-family: 'Clash Display', sans-serif;
     font-weight: bolder;
     font-size:x-large;
-    color:#130505;
+    color:#ffffff;
     letter-spacing: 1px;
+    position: absolute;
+    left: 22%;
 }
+.name {
+    margin-top: 50px;
+    margin-left: 57px;
+    background-color: #ffffff;
+    width: 17vw;
+    height: 40px;
+    padding: 10px;
+     text-align: center; 
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+  }
+  
+  .name:focus {
+    color: rgb(0, 255, 255);
+    background-color: #212121;
+    outline-color: rgb(0, 255, 255);
+    box-shadow: -3px -3px 15px rgb(0, 255, 255);
+    transition: .1s;
+    transition-property: box-shadow;
+  }
+  .age {
+    margin-top: 10px;
+    margin-left: 57px;
+    background-color: #ffffff;
+    width: 17vw;
+    height: 40px;
+    padding: 10px;
+     text-align: center; 
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+  }
+  
+  .age:focus {
+    color: rgb(0, 255, 255);
+    background-color: #212121;
+    outline-color: rgb(0, 255, 255);
+    box-shadow: -3px -3px 15px rgb(0, 255, 255);
+    transition: .1s;
+    transition-property: box-shadow;
+  }
