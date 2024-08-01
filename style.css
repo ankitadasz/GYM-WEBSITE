@@ -131,7 +131,7 @@ ul{
   grid-template-columns: 10vw 11vw 9vw 10vw;
   align-items: center;
   justify-items: center;
-  padding: 10px;
+  padding: 3px;
 }
 .rightnavbar{
     position: absolute;
@@ -144,7 +144,7 @@ ul{
   grid-template-columns: 10vw 10vw;
   align-items: center;
   justify-items: center;
-  padding: 10px;
+  padding: 3px;
 }
 .call{
     padding: 5px;
@@ -163,11 +163,6 @@ ul{
 .mail:hover{
     background-color:#BC7676 ;
     color: black;
-}
-.main{
-    position: absolute;
-    top: 50%;
-    left: 40%;
 }
 .join{
     font-family: 'Clash Display', sans-serif;
@@ -327,7 +322,12 @@ ul{
     transform: translate(-50%, -50%) scale(4);
     transition: 1.5s ease;
   }
-  /*.main{
-    padding
+  .main{
+    padding:70px 30px;
+    border: 2px solid white;
+    border-radius: 10%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
   }
     
