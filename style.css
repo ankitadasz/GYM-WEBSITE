@@ -330,4 +330,21 @@ ul{
     top: 30%;
     left: 5%;
   }
-    
+  .footernav {
+    background-color: rgb(161, 146, 230);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footernav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footernav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+.f
